@@ -6,6 +6,6 @@ set -e
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/Young1Lee/young1lee.github.io.git master:main
+git push https://github.com/Young1Lee/young1lee.github.io.git master:gh-pages
 
 cd -
