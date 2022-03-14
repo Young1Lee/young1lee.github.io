@@ -6,6 +6,6 @@ set -e
 git add -A
 git commit -m 'deploy'
 
-git push master:gh-pages
+git push origin master:gh-pages
 
 cd -
